@@ -1,0 +1,11 @@
+- name: installation serveur 
+  hosts: all
+  become: yes
+  #remote_user: osboxes
+  #become_user: osboxes
+  #become_method: sudo
+  roles:
+  - monrole
+#  - monrole1
+      
+
